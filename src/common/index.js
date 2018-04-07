@@ -10,4 +10,5 @@ const loader = (message) => {
     </div>
 }
 
+
 export default {loader}
