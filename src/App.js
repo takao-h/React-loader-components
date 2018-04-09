@@ -14,7 +14,7 @@ class App extends Component {
           <div class="cp_item"></div>
         </div>
         <p>{message}</p>
-      </div>
+    </div>
   }
 
   return(
@@ -26,6 +26,7 @@ class App extends Component {
       <p className="App-intro">
         To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        {loader("hello!")}
       </div>
     );
   }
