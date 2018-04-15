@@ -1,21 +1,22 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './loader.css'
 
 class App extends Component {
   render() {
-    const loader = (message) => {
-      <div>
-        <div class="cp_loading17">
-          <div class="cp_item"></div>
-          <div class="cp_item"></div>
-          <div class="cp_item"></div>
-          <div class="cp_item"></div>
-          <div class="cp_item"></div>
-        </div>
-        <p>{message}</p>
-    </div>
-  }
+  //   const loader = (message) => {
+  //     <div>
+  //       <div class="cp_loading17">
+  //         <div class="cp_item"></div>
+  //         <div class="cp_item"></div>
+  //         <div class="cp_item"></div>
+  //         <div class="cp_item"></div>
+  //         <div class="cp_item"></div>
+  //       </div>
+  //       <p>{message}</p>
+  //   </div>
+  // }
 
   return(
       <div className = "App" >
@@ -26,7 +27,16 @@ class App extends Component {
       <p className="App-intro">
         To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        {loader("hello!")}
+        <div>
+          <div class="cp_loading17">
+            <div class="cp_item"></div>
+            <div class="cp_item"></div>
+            <div class="cp_item"></div>
+            <div class="cp_item"></div>
+            <div class="cp_item"></div>
+          </div>
+          <p>hello!!</p>
+        </div>
       </div>
     );
   }
