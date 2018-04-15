@@ -28,12 +28,12 @@ class App extends Component {
         To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <div>
-          <div class="cp_loading17">
-            <div class="cp_item"></div>
-            <div class="cp_item"></div>
-            <div class="cp_item"></div>
-            <div class="cp_item"></div>
-            <div class="cp_item"></div>
+          <div className="cp_loading17">
+            <div className="cp_item"></div>
+            <div className="cp_item"></div>
+            <div className="cp_item"></div>
+            <div className="cp_item"></div>
+            <div className="cp_item"></div>
           </div>
           <p>hello!!</p>
         </div>
