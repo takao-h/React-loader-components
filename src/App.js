@@ -5,19 +5,6 @@ import './loader.css'
 
 class App extends Component {
   render() {
-  //   const loader = (message) => {
-  //     <div>
-  //       <div class="cp_loading17">
-  //         <div class="cp_item"></div>
-  //         <div class="cp_item"></div>
-  //         <div class="cp_item"></div>
-  //         <div class="cp_item"></div>
-  //         <div class="cp_item"></div>
-  //       </div>
-  //       <p>{message}</p>
-  //   </div>
-  // }
-
   return(
       <div className = "App" >
       <header className="App-header">
