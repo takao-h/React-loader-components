@@ -7,9 +7,7 @@ class App extends Component {
     render() {
         return(
             <div className = "App" >
-                <header className="App-header">
-                    <img src={logo} className="App-logo" alt="logo" />
-                </header>
+
                 <div>
                     <div className="cp_loading17">
                         <div className="cp_item"></div>
@@ -17,7 +15,7 @@ class App extends Component {
                         <div className="cp_item"></div>
                         <div className="cp_item"></div>
                         <div className="cp_item"></div>
-                        <p>now loading !!!!!!!</p>
+                        <p>now loading!!!!!!!</p>
                     </div>
                 </div>
             </div>
