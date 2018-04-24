@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import BoxSlide from './loading';
 import Updown from './Updown';
-
 import Loader2 from './Loader2';
 class App extends Component {
     render() {
@@ -10,10 +9,9 @@ class App extends Component {
             <div className = "App" >
                {/* <BoxSlide /> */}
                {/*<Updown />*/}
-               <Loader2/>
+               <Loader2 />
             </div>
         );
     }
 }
-
 export default App;
