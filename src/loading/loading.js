@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './loader.css';
+import './stylesheet/loader.css';
 
 class BoxSlide extends Component {
     render() {
